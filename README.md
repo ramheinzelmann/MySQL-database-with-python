@@ -11,8 +11,8 @@
 
 ## Objetivo <a name="objetivo"></a>
 _MySQL database with python_ é um exemplo simples, em python, para fazer CRUD em um banco de dados MySQL.
-O código cria uma tabela de usuário, em num database pre existente, cria uma senha criptografada, cria o registro do
-usuário, seleciona os dados do usuário criado e exlui (opcional) o usuário.
+O código cria uma tabela de usuário, em num database preexistente, cria uma senha criptografada, cria o registro do
+usuário, seleciona os dados do usuário criado e exclui (opcional) o usuário.
 
 _MySQL database with python_ is a simple example, in python, for CRUDing a MySQL database.
 The code creates a user table, in a pre-existing database, creates an encrypted password, creates the record of
