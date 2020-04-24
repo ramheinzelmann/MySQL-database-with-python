@@ -14,7 +14,7 @@ _MySQL database with python_ é um exemplo simples, em python, para fazer CRUD e
 O código cria uma tabela de usuário, em num database preexistente, cria uma senha criptografada, cria o registro do
 usuário, seleciona os dados do usuário criado e exclui (opcional) o usuário.
 
-_MySQL database with python_ is a simple example, in python, for CRUDing a MySQL database.
+_MySQL database with python_ is a simple example, in python, for CRUD in a MySQL database.
 The code creates a user table, in a pre-existing database, creates an encrypted password, creates the record of
 user, selects the data of the created user and excludes (optional) the user.
 
@@ -69,7 +69,7 @@ Efetua a conexão com o banco de dados MySQL.
 As informações para acesso ao Bando de Dados estão em variáveis de ambiente. 
 
 Connects to the MySQL database.
-The information for accessing the Data Bank is in environment variables.
+The information for accessing the Database is in environment variables.
 
 ```
 db = pymysql.connect(host=os.environ['MYSQL_HOST'],
@@ -83,8 +83,8 @@ db = pymysql.connect(host=os.environ['MYSQL_HOST'],
 Contém a classe com as funções que executa a criação da tabela, a criação do registro do usuário, a recuperação dos 
 dados do usuário e a exclusão do usuário. 
 
-It contains the class with the functions that perform the creation of the table, the creation of the user record, the recovery of
-user data and user deletion.
+It contains the class with the functions that perform the creation of the table, the creation of the user record, the
+recovery of user data and user deletion.
 
 ```
 class Execute_Sql(object):
